@@ -34,8 +34,9 @@ div p {
 }
 
 div button {
-    display: flex;
+    display: absolute;
     text-decoration: none;
+    flex-wrap: wrap;
 }
 
 .btn-encriptar {
@@ -51,14 +52,14 @@ div button {
     border-radius: 0.5rem;
     border-color: #0e2859;
     background-color: #215ebb;
-    height: 30px;
-    width: 100px;
-    padding-top: 5px;
+    width: 8rem;
+    height: 2rem;
+    padding-top: 0.2rem;
 }
 
 .btn-descriptar {
     position: absolute;
-    margin-left: 18%;
+    margin-left: 19.2%;
     margin-top: 2%;
     justify-content: center;
     font-size: 1rem;
@@ -68,9 +69,9 @@ div button {
     border-radius: 0.5rem;
     border-color: #0e2859; 
     background-color: #fff;
-    height: 30px;
-    width: 110px;
-    padding-top: 5px;
+    width: 8rem;
+    height: 2rem;
+    padding-top: 0.2rem;
 }
 
 .btn-descriptar .btn-encriptar:hover {
@@ -101,4 +102,43 @@ aside h3 {
     text-align: center;
     color: #afcee3;
     font-size: 1.5rem;
+}
+
+@media (max-width: 1080px) {
+    .btn-descriptar {
+        margin-left: 11rem;
+    }
+
+    aside {
+        height: 30px;
+        width: 30px;
+        margin-top: 50px;
+        margin-right: auto;
+    }
+}
+
+/* Telefonos  */
+@media (max-width: 1080px) {
+    .btn-descriptar {
+        margin-left: 12rem;
+    }
+
+    textarea {
+        width: auto;
+    }
+
+    aside {
+        height: 50%;
+        width: 70%;
+        margin-top: 5rem;
+        margin-left: -25rem;
+    }
+
+    #muneco {
+        width: 13rem;
+        height: 14rem;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+
 }
