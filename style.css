@@ -85,7 +85,7 @@ aside {
     width: 18rem;
     border-radius: 0.5rem;
     left: 77%;
-    margin-top: -33%;
+    margin-top: -30%;
     align-items: center;
     box-shadow: 0.1rem 0.2rem 0.2rem #495057;
 }
@@ -120,7 +120,7 @@ aside h3 {
 /* Telefonos  */
 @media (max-width: 1080px) {
     .btn-descriptar {
-        margin-left: 12rem;
+        margin-left: 14rem;
     }
 
     textarea {
@@ -128,17 +128,23 @@ aside h3 {
     }
 
     aside {
-        height: 50%;
-        width: 70%;
-        margin-top: 5rem;
-        margin-left: -25rem;
+        position: relative;
+        left: 10%;
+        top: 5rem;
+        padding-top: 1%;
+        height: 20rem;
+        width: 20rem;
     }
 
     #muneco {
         width: 13rem;
         height: 14rem;
-        margin-left: 20%;
-        margin-top: 10%;
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+
+    aside h3 {
+        display: none;
     }
 
 }
