@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #afcee3;
+    font-family: 'Inter', sans-serif;
+        font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
@@ -26,11 +28,11 @@ div p {
     position: flex;
 }
 .terminos-condiciones {
-    font-weight: 500;
+    font-weight: 200;
     color: #114c5f;
     margin-left: 10%;
     margin-top: 2%;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 div button {
@@ -85,7 +87,7 @@ aside {
     width: 18rem;
     border-radius: 0.5rem;
     left: 77%;
-    margin-top: -30%;
+    margin-top: -25%;
     align-items: center;
     box-shadow: 0.1rem 0.2rem 0.2rem #495057;
 }
@@ -106,7 +108,8 @@ aside h3 {
 
 @media (max-width: 1080px) {
     .btn-descriptar {
-        margin-left: 11rem;
+        left: 3%;
+        position: absolute;
     }
 
     aside {
@@ -119,12 +122,18 @@ aside h3 {
 
 /* Telefonos  */
 @media (max-width: 1080px) {
+
+    .terminos-condiciones {
+        font-size: 0.7rem;
+    }
+
     .btn-descriptar {
         margin-left: 14rem;
     }
 
     textarea {
         width: auto;
+        left: auto;
     }
 
     aside {
