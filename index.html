@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@200;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script src="sweetalert.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -21,7 +22,7 @@
     <main>
       <textarea
         name="texto"
-        id="text"
+        id="texto"
         cols="30"
         rows="10"
         placeholder="Escriba aquí"
@@ -32,13 +33,18 @@
         </p>
       </div>
       <div class="botones">
-        <button type="button" class="btn-encriptar">Encriptar</button>
-        <button type="button" class="btn-descriptar">Desencriptar</button>
+        <button type="button" class="btn-encriptar" onclick="encriptar()">
+          Encriptar
+        </button>
+        <button type="button" class="btn-descriptar" onclick="desencriptar()">
+          Desencriptar
+        </button>
       </div>
     </main>
     <aside>
-      <img src="Imagenes /Muñeco.png" alt="muneco" id="muneco" />
-      <h3>Ingresa texto a encriptar</h3>
+      <img src="Imagenes /muneco.png" alt="muneco" id="muneco" />
+      <h3 id="titulo-mensaje">Ingresa texto a encriptar</h3>
     </aside>
+    <script src="index.js"></script>
   </body>
 </html>

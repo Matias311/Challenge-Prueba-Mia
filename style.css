@@ -43,6 +43,7 @@ div button {
     text-decoration: none;
     flex-wrap: wrap;
     cursor: pointer;
+    animation-duration: 2s;
 }
 
 .btn-encriptar {
