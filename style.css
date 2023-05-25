@@ -16,8 +16,8 @@ textarea {
     background-color: #afcee3;
     color: #114c5f;
     border: none;
-    height: 22rem;
-    width: 40rem;
+    height: 28rem;
+    width: 45rem;
     margin-left: 10%;
     margin-top: 5%;
     outline: none;
@@ -29,10 +29,12 @@ div p {
 }
 
 .terminos-condiciones {
+    position: absolute;
     font-weight: 200;
     color: #114c5f;
     margin-left: 10%;
     margin-top: 2%;
+    top: 40rem;
     font-size: 0.8rem;
 }
 
@@ -40,12 +42,14 @@ div button {
     display: absolute;
     text-decoration: none;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 .btn-encriptar {
     position: absolute;
     margin-left: 10%;
     margin-top: 2%;
+    top: 42rem;
     justify-content: center;
     text-align: center;
     font-size: 1rem;
@@ -55,15 +59,16 @@ div button {
     border-radius: 0.5rem;
     border-color: #0e2859;
     background-color: #215ebb;
-    width: 8rem;
-    height: 2rem;
+    width: 10rem;
+    height: 3rem;
     padding-top: 0.2rem;
 }
 
 .btn-descriptar {
     position: absolute;
-    margin-left: 19.2%;
+    margin-left: 20%;
     margin-top: 2%;
+    top: 42rem;
     justify-content: center;
     font-size: 1rem;
     font-style: none;
@@ -72,23 +77,23 @@ div button {
     border-radius: 0.5rem;
     border-color: #0e2859;
     background-color: #fff;
-    width: 8rem;
-    height: 2rem;
+    width: 10rem;
+    height: 3rem;
     padding-top: 0.2rem;
 }
 
 .btn-descriptar .btn-encriptar:hover {
-    box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
 }
 
 aside {
     position: absolute;
     background-color: #215ebb;
-    height: 35rem;
-    width: 18rem;
+    height: 42rem;
+    width: 19rem;
     border-radius: 0.5rem;
     left: 77%;
-    margin-top: -25%;
+    top: 10%;
     align-items: center;
     box-shadow: 0.1rem 0.2rem 0.2rem #495057;
 }
@@ -111,11 +116,17 @@ aside h3 {
 @media (max-width: 1080px) {
 
     .terminos-condiciones {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    div button {
+        display: inline-block;
     }
 
     .btn-descriptar {
-        left: 6rem;
+        top: 46.5rem;
+        margin: 0;
+        left: 10%;
     }
 
     textarea {
@@ -124,19 +135,19 @@ aside h3 {
     }
 
     aside {
-        position: relative;
-        left: 10%;
-        top: 5rem;
-        padding-top: 1%;
-        height: 20rem;
-        width: 20rem;
+        position: absolute;
+        left: 2rem;
+        top: 50rem;
+        height: 15rem;
+        width: 18rem;
+        margin: 5%;
     }
 
     #muneco {
         width: 13rem;
-        height: 14rem;
+        height: 13rem;
         margin-left: 15%;
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
     aside h3 {
